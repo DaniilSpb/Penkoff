@@ -140,3 +140,40 @@ font-size: 36px;
     display:flex;
     justify-content: space-between;
 }
+.section-subtitle {
+    display: block;
+    text-align:center;
+    font-size:16px;
+    margin-bottom: 32px;
+}
+.best__title{
+    margin-bottom: 10px;
+}
+.best-card{
+    width:240px;
+    height:260px;
+    padding: 0px;
+    position: relative;
+}
+.best-card__image {
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%)
+}
+.best-card__text {
+    max-width:200px;
+    margin:auto;
+    text-align:center;
+    margin-top: 20px;
+}
+.best-card__image_left {
+    left:0;
+    transform:translateX(0);
+}
+.best-card__image_right {
+    background-image: url(./img/Image_5.png);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+
+}
