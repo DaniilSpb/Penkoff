@@ -64,14 +64,21 @@ body {
     margin-left:15px;
     position: relative;
 }
-/*.tabs-menu__item:after {
+.tabs-menu__item:after {
     content:'';
     display:block;
-    height:1px;
-    width:100%;
+    position: absolute;
+    bottom: -20px;
+    left:0;
+    height:4px;
+    width:0%;
     background-color: #fcde29;
+    transition: width 0.2s;
 }
-*/
+.tabs-menu__item:hover:after {
+width: 100%;
+}
+
 .tabs-logo{
     font-size:20px;
     color:#95989a;
