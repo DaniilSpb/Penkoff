@@ -225,3 +225,13 @@ font-size: 36px;
     display:flex;
     justify-content: flex-end;
 }
+.footer {
+    background-color:  #f7f7f7;
+    padding: 60px 0;
+}
+.footer__text {
+    text-align:center;
+    max-width: 670px;
+    margin: auto;
+    font-size:12px;
+}
